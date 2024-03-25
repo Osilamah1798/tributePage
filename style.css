@@ -3,10 +3,16 @@
 
 		body {
 			background-color: #9CAFAA;
-			margin: 20%;
+			margin: 2.5%;
+			padding:2.5%;
             font-size: 0.625%;
             color: #ffffff;
+			
             
+		}
+		main{
+			
+			width: 90%;
 		}
         #trib{
             width: 70%;
@@ -14,12 +20,20 @@
             font-size: 0.7rem;
         }
 
+		.header{ display: flex;
+			
+ 			 align-items: center;
+			 width: 100%;
+
+		}
 		/* Styling the Title and giving
 		shadow to the title */
 		#title {
 			text-align: center;
-			text-shadow: 3px 3px 3px black;
-			font-size: 2rem;
+			text-shadow: 2px 2px 3px black;
+			font-size: 1.8rem;
+			/* padding-top: 8%; */
+			
 		}
 
 		/* Setting width and display
@@ -27,15 +41,18 @@
 		#img-ctn { 
             text-align: center;
 			display: inline-block;
-			width: 30%;
+			width: 40%;
             margin: auto;
 		}
         #caption{
-            text-align: right;
+            text-align: left;
             display: inline-block;
             font-size: 17px;
+			margin: 20% auto;
 			font-family: Gill Sans;
-			color: black;
+			color: white;
+			padding: 2%;
+			text-shadow: 1px 1px 2px black;
         }
         #image{
             margin: auto;
@@ -63,13 +80,22 @@
 		h1.title-KSW {
 			font-size: 35px;
 			color: white;
+			text-shadow: 2px 2px 3px black;
 			text-align: center;
-			text-shadow: 5px 5px 10px black;
+			
 		}
 
 		/* Styling the link provided at the end */
 		#tribute-link {
 	
 			color: black;
-            font-size: 0.7rem;
+            font-size: 1rem;
+		}
+		.lline{
+			color: black;
+            font-size: 1rem;
+			
+		}
+		.b-pts{
+			text-shadow: 1px 1px 3px black;
 		}
